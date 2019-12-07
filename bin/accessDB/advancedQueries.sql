@@ -1,0 +1,10 @@
+select count(*) as 'amount of countries' from COUNTRY where population > 1000000;
+select PERSON.name as 'person name', COUNTRY.name as 'country name', dateTime as 'date of birth' from PERSON, COUNTRY, DATETIME where PERSON.countryID = COUNTRY.ID and PERSON.dateOfBirthID = DATETIME.ID and PERSON.ID = 'PERSON99';
+select count(*) as 'amount of people' from PERSON, COUNTRY where PERSON.countryID = COUNTRY.ID and officialLanguage = N'Tiếng Anh';
+select population from LOCATION, COUNTRY where LOCATION.countryID = COUNTRY.ID and LOCATION.name = N'Đà Nẵng';
+select PERSON.name, gender, ORGANIZATION.description from ORGANIZATION, PERSON where ORGANIZATION.leaderID = PERSON.ID and ORGANIZATION.ID = N'ORGANIZATION69';
+select ORGANIZATION.name from ORGANIZATION, LOCATION, COUNTRY where ORGANIZATION.locationID = LOCATION.ID and LOCATION.countryID = COUNTRY.ID order by population asc;
+select coordinate from EVENT, DATETIME, LOCATION where EVENT.startTimeID = DATETIME.ID and EVENT.locationID = LOCATION.ID and dateTime = '2002-08-19 00-00-00';
+select dateTime from AGREEMENT, DATETIME, LOCATION, COUNTRY where AGREEMENT.timeID = DATETIME.ID and AGREEMENT.locationID = LOCATION.ID and LOCATION.countryID = COUNTRY.ID and COUNTRY.name = N'Việt Nam';
+select link from FACT, ARTICLE where FACT.articleID = ARTICLE.ID and relationship = 'MEET';
+select PERSON.name as 'person name', relationship, AGREEMENT.name as 'agreement name' from FACT, PERSON, AGREEMENT where FACT.subjectID = PERSON.ID and FACT.objectID = AGREEMENT.ID;

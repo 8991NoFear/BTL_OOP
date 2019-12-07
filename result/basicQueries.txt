@@ -1,0 +1,30 @@
+Lấy thông tin của thực thể thời gian có ID = DATETIME113
+select * from DATETIME where ID = N'DATETIME113';
+
+Lấy thông tin của thực thể địa danh có ID = LOCATION23
+select * from LOCATION where ID = N'LOCATION23';
+
+Lấy thông tin của thực thể tổ chức có ID = ORGANIZATION11
+select * from ORGANIZATION where ID = N'ORGANIZATION11';
+
+Lấy thông tin của thực thể hiệp định có ID = AGREEMENT98
+select * from AGREEMENT where ID = 'AGREEMENT98';
+
+Lấy thông tin tên của 100 thực thể COUNTRY đầu tiên
+select name from COUNTRY limit 100;
+
+Lấy thông tin các thực thể quốc gia có dân số lớn hơn 1 tỷ người
+select * from COUNTRY where population > 1000000000;
+
+Lấy thông tin ngôn ngữ chính thức của các thực thể quốc gia có tên là Tây Ban Nha
+select officialLanguage from COUNTRY where name = N'Tây Ban Nha';
+
+Lấy thông tin mô tả của các thực thể người có tên là Pele
+select description from PERSON where name = N'Pele';
+
+Lấy thông tin mô tả các thực thể địa danh có tọa độ là 23°22'N 105°20'E
+select description from LOCATION where coordinate = N'23°22\'N 105°20\'E';
+
+Lấy thông tin mã số ID, tên, mô tả của các thực thể sự kiện mà tên bắt đầu bằng "Giải bóng đá"
+select ID, name, description from EVENT where name like N'Giải bóng đá %';
+

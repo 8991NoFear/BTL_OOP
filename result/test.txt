@@ -1,0 +1,169 @@
+GENERATE WITH (ENTITIES, FACTS, ARTICLES) = (100, 14, 14)
+[#1] Connect to MySQL Server and create database ... complete in: 3153
+[#2] Create local data ... complete in: 7
+[#3] Send virtual data to database ... complete in : 146
+[#4] Basic Queries: 
+- Query 1 ... complete in: 1
+- Query 2 ... complete in: 2
+- Query 3 ... complete in: 1
+- Query 4 ... complete in: 2
+- Query 5 ... complete in: 0
+- Query 6 ... complete in: 1
+- Query 7 ... complete in: 1
+- Query 8 ... complete in: 1
+- Query 9 ... complete in: 1
+- Query 10 ... complete in: 1
+[#5] Advanced Queries: 
+- Query 1 ... complete in: 0
+- Query 2 ... complete in: 1
+- Query 3 ... complete in: 2
+- Query 4 ... complete in: 1
+- Query 5 ... complete in: 1
+- Query 6 ... complete in: 1
+- Query 7 ... complete in: 1
+- Query 8 ... complete in: 1
+- Query 9 ... complete in: 1
+- Query 10 ... complete in: 1
+---------------------------------------------------
+
+GENERATE WITH (ENTITIES, FACTS, ARTICLES) = (1000, 142, 142)
+[#1] Connect to MySQL Server and create database ... complete in: 1455
+[#2] Create local data ... complete in: 39
+[#3] Send virtual data to database ... complete in : 278
+[#4] Basic Queries: 
+- Query 1 ... complete in: 0
+- Query 2 ... complete in: 2
+- Query 3 ... complete in: 1
+- Query 4 ... complete in: 1
+- Query 5 ... complete in: 1
+- Query 6 ... complete in: 1
+- Query 7 ... complete in: 3
+- Query 8 ... complete in: 1
+- Query 9 ... complete in: 1
+- Query 10 ... complete in: 1
+[#5] Advanced Queries: 
+- Query 1 ... complete in: 2
+- Query 2 ... complete in: 1
+- Query 3 ... complete in: 2
+- Query 4 ... complete in: 1
+- Query 5 ... complete in: 1
+- Query 6 ... complete in: 4
+- Query 7 ... complete in: 1
+- Query 8 ... complete in: 4
+- Query 9 ... complete in: 1
+- Query 10 ... complete in: 3
+---------------------------------------------------
+
+GENERATE WITH (ENTITIES, FACTS, ARTICLES) = (10000, 1428, 1428)
+[#1] Connect to MySQL Server and create database ... complete in: 2974
+[#2] Create local data ... complete in: 36
+[#3] Send virtual data to database ... complete in : 1870
+[#4] Basic Queries: 
+- Query 1 ... complete in: 0
+- Query 2 ... complete in: 0
+- Query 3 ... complete in: 3
+- Query 4 ... complete in: 0
+- Query 5 ... complete in: 4
+- Query 6 ... complete in: 46
+- Query 7 ... complete in: 7
+- Query 8 ... complete in: 22
+- Query 9 ... complete in: 3
+- Query 10 ... complete in: 1
+[#5] Advanced Queries: 
+- Query 1 ... complete in: 1
+- Query 2 ... complete in: 2
+- Query 3 ... complete in: 10
+- Query 4 ... complete in: 1
+- Query 5 ... complete in: 1
+- Query 6 ... complete in: 59
+- Query 7 ... complete in: 19
+- Query 8 ... complete in: 5
+- Query 9 ... complete in: 8
+- Query 10 ... complete in: 25
+---------------------------------------------------
+
+GENERATE WITH (ENTITIES, FACTS, ARTICLES) = (100000, 14285, 14285)
+[#1] Connect to MySQL Server and create database ... complete in: 1820
+[#2] Create local data ... complete in: 297
+[#3] Send virtual data to database ... complete in : 21074
+[#4] Basic Queries: 
+- Query 1 ... complete in: 4
+- Query 2 ... complete in: 4
+- Query 3 ... complete in: 21
+- Query 4 ... complete in: 4
+- Query 5 ... complete in: 7
+- Query 6 ... complete in: 223
+- Query 7 ... complete in: 16
+- Query 8 ... complete in: 324
+- Query 9 ... complete in: 110
+- Query 10 ... complete in: 299
+[#5] Advanced Queries: 
+- Query 1 ... complete in: 151
+- Query 2 ... complete in: 8
+- Query 3 ... complete in: 132
+- Query 4 ... complete in: 164
+- Query 5 ... complete in: 10
+- Query 6 ... complete in: 678
+- Query 7 ... complete in: 498
+- Query 8 ... complete in: 499
+- Query 9 ... complete in: 251
+- Query 10 ... complete in: 573
+---------------------------------------------------
+
+GENERATE WITH (ENTITIES, FACTS, ARTICLES) = (1000000, 142857, 142857)
+[#1] Connect to MySQL Server and create database ... complete in: 1748
+[#2] Create local data ... complete in: 3161
+[#3] Send virtual data to database ... complete in : 249831
+[#4] Basic Queries: 
+- Query 1 ... complete in: 13
+- Query 2 ... complete in: 5
+- Query 3 ... complete in: 13
+- Query 4 ... complete in: 7
+- Query 5 ... complete in: 7
+- Query 6 ... complete in: 1690
+- Query 7 ... complete in: 1736
+- Query 8 ... complete in: 2591
+- Query 9 ... complete in: 1288
+- Query 10 ... complete in: 3418
+[#5] Advanced Queries: 
+- Query 1 ... complete in: 1594
+- Query 2 ... complete in: 9
+- Query 3 ... complete in: 2038
+- Query 4 ... complete in: 2301
+- Query 5 ... complete in: 18
+- Query 6 ... complete in: 8089
+- Query 7 ... complete in: 5804
+- Query 8 ... complete in: 5451
+- Query 9 ... complete in: 2806
+- Query 10 ... complete in: 7057
+---------------------------------------------------
+
+GENERATE WITH (ENTITIES, FACTS, ARTICLES) = (2000000, 285714, 285714)
+[#1] Connect to MySQL Server and create database ... complete in: 1625
+[#2] Create local data ... complete in: 1945
+[#3] Send virtual data to database ... complete in : 607068
+[#4] Basic Queries: 
+- Query 1 ... complete in: 4
+- Query 2 ... complete in: 5
+- Query 3 ... complete in: 19
+- Query 4 ... complete in: 4
+- Query 5 ... complete in: 8
+- Query 6 ... complete in: 3946
+- Query 7 ... complete in: 3584
+- Query 8 ... complete in: 3865
+- Query 9 ... complete in: 2722
+- Query 10 ... complete in: 5813
+[#5] Advanced Queries: 
+- Query 1 ... complete in: 3077
+- Query 2 ... complete in: 17
+- Query 3 ... complete in: 5042
+- Query 4 ... complete in: 5761
+- Query 5 ... complete in: 16
+- Query 6 ... complete in: 17630
+- Query 7 ... complete in: 13591
+- Query 8 ... complete in: 10161
+- Query 9 ... complete in: 4544
+- Query 10 ... complete in: 11777
+---------------------------------------------------
+
+*** PROGRAM FINISHED SUCCEED ****
